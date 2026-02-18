@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Waakye & Jollof Orders</title>
+  <title>Waakye & Fried rice Orders</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -82,7 +82,7 @@
 
 <body>
   <div class="container">
-    <h1>🍛 Waakye & Jollof Orders</h1>
+    <h1>🍛 Waakye & Fried rice Orders</h1>
     <p>Fill the form to place your order. Delivery is to your hostel room.</p>
 
     <form id="orderForm">
@@ -90,20 +90,20 @@
       <input type="text" id="name" required placeholder="e.g. Ernest Kojo" />
 
       <label for="hostel">Hostel</label>
-      <input type="text" id="hostel" required placeholder="e.g. Unity Hall" />
+      <input type="text" id="hostel" required placeholder="e.g. Lemez Hostel" />
 
       <label for="room">Room Number</label>
-      <input type="text" id="room" required placeholder="e.g. B12" />
+      <input type="text" id="room" required placeholder="e.g. B16" />
 
       <label for="food">Order</label>
       <select id="food" required>
         <option value="">-- Select Food --</option>
         <option value="Waakye">Waakye</option>
-        <option value="Jollof">Jollof</option>
+        <option value="Fried rice">Fried rice</option>
       </select>
 
       <label for="amount">Amount (GH₵)</label>
-      <input type="number" id="amount" required min="1" placeholder="e.g. 15" />
+      <input type="number" id="amount" required min="1" placeholder="e.g. 25" />
 
       <button type="submit">Place Order</button>
     </form>
